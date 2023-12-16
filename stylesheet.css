@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(15, 15, 15);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul li a:hover {
+
+    color: rgb(243, 31, 73);
+    font-size: 1.1rem;
+}
+
+main hr {
+    border: 0;
+    height: 1.2px;
+    margin: 40px 84px;
+    background: rgb(187, 39, 68);
+    ;
+}
+
+
+.left {
+    font-size: 1.8rem;
+
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    align-items: center;
+}
+
+.firstsection>div {
+    width: 40%;
+}
+
+.leftsection {
+    font-size: xx-large;
+    margin: 150px 0;
+}
+
+.rightsection img {
+    width: 90%;
+    margin: 5px 0;
+
+
+}
+
+.purple {
+    color: rgb(187, 39, 68);
+
+}
+
+.text-gray {
+    color: darkgray;
+    font-size: 1.5rem;
+}
+
+#element {
+    color: rgb(245, 41, 81);
+    padding-bottom: 50px;
+}
+.buttons {
+    margin-top: 34px;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 30px;
+    background-color:black ;
+    color:  rgb(245,41,81);
+    font-weight: bolder;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+    
+}
+.buttons button:hover{
+     color: black;
+     background-color: rgb(245,41,81) ;
+}
+
+.secondsection {
+    max-width: 88vw;
+    margin: 5px;
+    padding-left: 90px;
+    height: 40vh;
+
+}
+
+.secondsection h1 {
+    font-size: 1.5rem;
+    margin: 40px;
+    padding-left: 38%;
+}
+
+.secondsection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 40px 0;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 50px;
+    width: 1px;
+    background-color: white;
+    margin: 0 150px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 50px;
+    width: 150px;
+
+
+}
+
+.vertical-desc {
+    position: relative;
+    top: 50px;
+    color: darkgray;
+    width: 150px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.image {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.vertical-title li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.vertical-title li a:hover {
+    color: rgb(243, 31, 73);
+    font-size: 1.1rem;
+
+}
+
+
+.thirdsection {
+    max-width: 100vw;
+    margin-top: 300px;
+    margin-bottom: 2px;
+    height: 40vh;
+
+}
+
+.thirdsection h2 {
+    font-size: 1.5rem;
+    padding-left: 40%;
+    margin: 10vh;
+}
+.skills {
+margin: 0px;
+margin-bottom: 0px;
+}
+
+ul2 {
+list-style: none;
+padding: 0;
+margin: 0;
+margin-bottom: 450px;
+display: flex;
+flex-direction: row; 
+justify-content: space-around;
+
+}
+
+li {
+margin-bottom: 0px; 
+}
+
+
+footer {
+    background-color: rgb(51, 51, 51);
+    height: 180px;
+    margin-top: 5%;
+    
+    
+}
+
+.footer {
+    display: flex;
+    padding: 70px 10px;
+    justify-content: space-around ;
+    
+}
+
+footer >div{
+    width: 1200px;
+    padding: 0px 2px;
+}
+footer .footer-rights{
+    text-align: center;
+    color: darkgray;
+    padding: 12px -200 ;
+}
+.footer-first li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.footer-first li a:hover {
+    color: rgb(243, 31, 73);
+    font-size: 1.8rem;
+
+}
+
+
+
+
+
